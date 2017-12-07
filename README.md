@@ -1,14 +1,21 @@
 # AndroidGUITesting
 Which Factor Impacts GUI Traversal-Based Test Case Generation Technique Most? A Controlled Experiment on Android Applications （QRS2017 best paper）
 
+Our experimentation framework is adapted from the ASE 2015 work of Dr.Shauvik Roy Choudhary@ http://bear.cc.gatech.edu/~shauvik/androtest/. 
+
+We owe our thanks to their sharing.
+
 # 1)	Setup Process
-1.	Download and install VirtualBox，Vagrant；
+1.	Download the box file and install VirtualBox，Vagrant；
+
+The box files is shared at https://pan.baidu.com/s/1jICIhoy. Or you can email Dr. Bo Jiang: gongbell@gmail.com to get the big box file.
+
 2.	In a terminal, add the Androtest box to Vagrant 
 $ vagrant box add androqrs ./androqrs.box
 3.	Create a directory, say ~/vagrant/androtest，to host the vagrant machine and inside this directory download this Vagrantfile. This file contains the VirtualBox VM configuration that vagrant uses. Note that the configuration defines 10 VM instances labelled run1-run10. 
 $ mkdir -p ~/vagrant/androtest
 $ cd ~/vagrant/androtest
-$ wget http://bear.cc.gatech.edu/~shauvik/androtest/boxes/Vagrantfile
+$ wget https://github.com/gongbell/AndroidGUITesting/blob/master/Vagrantfile
 4.	You can start the vm using vagrant up. Vagrant will create all virtual machines on your computer (run1-run10) and start them. To start only one (or few) VMs, pass the VM name(s) as parameters. Once the VM has booted up, login to the VM using SSH.
 $ vagrant up run1 
 $ vagrant ssh run1
