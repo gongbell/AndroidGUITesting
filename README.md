@@ -57,3 +57,6 @@ run_puma.sh        #-->puma运行脚本
   b.	Parameter selection by changing the range of i, j, k; Turn the variable fileName to your local directory.
  
   c.	run the project and collect the result.
+
+Contact Dr. Bo Jiang in case you have comments or problems with the work. 
+gongbell@gmail.com, http://jiangbo.buaa.edu.cn
