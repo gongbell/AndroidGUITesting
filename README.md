@@ -8,7 +8,7 @@ We owe our thanks to their sharing.
 # 1)	Setup Process
 1.	Download the box file and install VirtualBox，Vagrant；
 
-The box files is shared at https://pan.baidu.com/s/1jICIhoy. Or you can email Dr. Bo Jiang: gongbell@gmail.com to get the big box file.
+The box files is shared at https://pan.baidu.com/s/1bDy1yu. Or you can email Dr. Bo Jiang: gongbell@gmail.com to get the big box file.
 
 2.	In a terminal, add the Androtest box to Vagrant 
 $ vagrant box add androqrs ./androqrs.box
